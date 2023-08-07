@@ -56,4 +56,15 @@ void main(){
   var output = i > j ? (i > k ? i : k) : (j > k ? j : k);
   //var out2  = ouput > k ? ouput : k ;
   print("largest is $output");
+
+
+   // postfix  (variable++  variable--)  and   prefix operators (++variable   --variable)
+   int z = 100;
+   print(z++);// here print value of z = 100  in background z = z+1 = 101
+   print(z++);// here print value of z = 101      ''        z = z+1 = 102
+
+  int l = 10;
+  print(++l);// 11
+  print(--l);// 10
+
 }
