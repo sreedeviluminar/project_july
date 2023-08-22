@@ -1,6 +1,8 @@
 //package used for input output operation : dart:io
-import 'dart:io'; // import is used to access built in functionalities in our code
-void main(){
+// import is used to access built in functionalities in our code
+import 'dart:io';
+
+void main() {
   String? name;
   int? age;
 

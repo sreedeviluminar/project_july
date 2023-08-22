@@ -36,4 +36,6 @@ void main(){
   var m8 = Map.fromIterables(s1, l1);
   print('m8  = $m8');
 
+  m8.forEach((key, value) { });
+
 }

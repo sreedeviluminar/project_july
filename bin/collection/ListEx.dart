@@ -38,8 +38,8 @@ void main() {
   print('l6  = $l6');
   print('l7  = $l7');
 
+  l7.forEach((element) { });
+  l7.length;
 
-
-//  print(l2.contains(2000));
 
 }
